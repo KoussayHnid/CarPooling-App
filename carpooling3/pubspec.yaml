@@ -1,0 +1,40 @@
+name: carpooling3
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2 
+  google_maps_flutter: ^2.9.0
+  flutter_launcher_icons: ^0.11.0
+  font_awesome_flutter: ^10.7.0
+  circle_nav_bar: ^2.0.1+1
+  animated_text_kit: ^4.2.2
+  tn_bottom_sheet_navigator: ^0.0.9
+  retry: ^3.1.0
+  connectivity_plus: ^4.0.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.3
+  flutter_secure_storage: ^9.2.2
+  latlong2: ^0.9.1
+  flutter_map: ^7.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/background.png
+    - assets/images/cherche.png
+    - assets/images/get_started.png
+    - assets/images/sign.png
+    - assets/images/login.png
+    - assets/images/homepage2.png
